@@ -276,7 +276,32 @@ export function ContactUs() {
                     textShadow: `0 0 10px ${card.color}`,
                   }}
                 >
-                  {card.content}
+                  {card.title === 'Email Us' && (
+                    <a href="mailto:sliveressence00@gmail.com" className="hover:underline">{card.content}</a>
+                  )}
+                  {card.title === 'Call Us' && (
+                    <div className="flex flex-col space-y-2">
+                      <a href="tel:+96878720330" className="hover:underline">{card.content} (Call)</a>
+                      <a 
+                        href="https://wa.me/96878720330?text=Hello%20Silver%20Essence%2C%20mujhe%20aapki%20jewelry%20ke%20baare%20mein%20ek%20sawaal%20hai.%20Kripya%20meri%20madad%20karein." 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="hover:underline"
+                      >
+                        {card.content} (WhatsApp)
+                      </a>
+                    </div>
+                  )}
+                  {card.title === 'Visit Us' && (
+                     <a 
+                        href="https://www.google.com/maps/search/?api=1&query=12%2C%20M%20floor%2C%20Al%20Noor%20Building%2C%20Darsait%2C%20Muscat%2C%20Sultanate%20of%20Oman" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="hover:underline"
+                      >
+                        {card.content}
+                      </a>
+                  )}
                 </p>
                 
                 <p className="text-sm" style={{ color: '#C0C0C0' }}>
