@@ -113,7 +113,7 @@ export function RefundPolicy({ onBack }: RefundPolicyProps) {
           >
             <div className="prose prose-invert max-w-none">
               <p className="text-lg mb-8 leading-relaxed" style={{ color: '#E0E0E0' }}>
-                <strong style={{ color: '#178B8D' }}>Last Updated:</strong> [Date to be added]
+                <strong style={{ color: '#178B8D' }}>Last Updated:</strong> November,7,2025.
               </p>
 
               <div className="space-y-8">
@@ -122,8 +122,7 @@ export function RefundPolicy({ onBack }: RefundPolicyProps) {
                     Our Commitment
                   </h2>
                   <p className="text-lg leading-relaxed" style={{ color: '#C0C0C0' }}>
-                    [Refund policy content will be added here. This section explains Silver Essence's 
-                    commitment to customer satisfaction and the refund process.]
+                    Your satisfaction is our top priority. If you are not completely satisfied with your purchase, you may return it for a refund or exchange within 15 days of the delivery date.
                   </p>
                 </section>
 
@@ -132,26 +131,41 @@ export function RefundPolicy({ onBack }: RefundPolicyProps) {
                     Eligibility for Refunds
                   </h2>
                   <p className="text-lg leading-relaxed" style={{ color: '#C0C0C0' }}>
-                    [Content about refund eligibility criteria will be added here.]
+                    To be eligible for a return, your silver jewelry item must be:
                   </p>
-                </section>
-
-                <section>
-                  <h2 className="text-3xl mb-4 tracking-wide" style={{ color: '#ffffff' }}>
-                    Refund Process
-                  </h2>
-                  <p className="text-lg leading-relaxed" style={{ color: '#C0C0C0' }}>
-                    [Content about the refund process and timeline will be added here.]
-                  </p>
+                  <ul className="list-disc list-inside mt-4 space-y-2 text-lg" style={{ color: '#C0C0C0' }}>
+                    <li>Unused and in the same condition that you received it.</li>
+                    <li>In its original packaging, including any protective bags or boxes.</li>
+                    <li>Accompanied by the original proof of purchase (packing slip or order number).</li>
+                  </ul>
                 </section>
 
                 <section>
                   <h2 className="text-3xl mb-4 tracking-wide" style={{ color: '#ffffff' }}>
                     Non-Refundable Items
                   </h2>
-                  <p className="text-lg leading-relaxed" style={{ color: '#C0C0C0' }}>
-                    [Content about items that cannot be refunded will be added here.]
+                   <p className="text-lg leading-relaxed" style={{ color: '#C0C0C0' }}>
+                    The following items are final sale and cannot be returned or exchanged:
                   </p>
+                  <ul className="list-disc list-inside mt-4 space-y-2 text-lg" style={{ color: '#C0C0C0' }}>
+                    <li>Earrings (for hygiene reasons).</li>
+                    <li>Custom or personalized items (engraved, custom sizes, etc.).</li>
+                    <li>Items marked as "Final Sale".</li>
+                  </ul>
+                </section>
+
+                <section>
+                  <h2 className="text-3xl mb-4 tracking-wide" style={{ color: '#ffffff' }}>
+                    Refund Process
+                  </h2>
+                  <ul className="list-disc list-inside mt-4 space-y-4 text-lg" style={{ color: '#C0C0C0' }}>
+                    <li><strong>Initiate a Return:</strong> Contact us at sliveressence00@gmail.com with your order number and the reason for the return/exchange.</li>
+                    <li><strong>RMA:</strong> We will provide you with a Return Merchandise Authorization (RMA) number and instructions on where to send the item.</li>
+                    <li><strong>Shipping:</strong> Silver Essences is not responsible for return shipping costs. We strongly recommend using a trackable shipping service, as we cannot guarantee that we will receive your returned item.</li>
+                    <li><strong>Inspection and Approval:</strong> Once your return is received and inspected, we will send you an email to notify you of the approval or rejection of your refund.</li>
+                    <li><strong>Processing:</strong> If approved, your refund will be processed, and a credit will automatically be applied to your original method of payment, within 2 business days.</li>
+                    <li><strong>Non-Refundable Costs:</strong> Shipping costs are non-refundable.</li>
+                  </ul>
                 </section>
 
                 <section>
@@ -159,7 +173,10 @@ export function RefundPolicy({ onBack }: RefundPolicyProps) {
                     Exchanges
                   </h2>
                   <p className="text-lg leading-relaxed" style={{ color: '#C0C0C0' }}>
-                    [Content about exchange policies will be added here.]
+                    If you are not completely satisfied with your purchase, you may return it for a refund or exchange within 15 days of the delivery date.
+                  </p>
+                  <p className="text-lg leading-relaxed mt-2" style={{ color: '#C0C0C0' }}>
+                    Note: The process for initiating an exchange is the same as the return process listed under 'Refund Process' above.
                   </p>
                 </section>
 
