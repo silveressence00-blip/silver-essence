@@ -113,7 +113,7 @@ export function TermsAndConditions({ onBack }: TermsAndConditionsProps) {
           >
             <div className="prose prose-invert max-w-none">
               <p className="text-lg mb-8 leading-relaxed" style={{ color: '#E0E0E0' }}>
-                <strong style={{ color: '#178B8D' }}>Last Updated:</strong> [Date to be added]
+                <strong style={{ color: '#178B8D' }}>Last Updated:</strong> November 7, 2025
               </p>
 
               <div className="space-y-8">
@@ -122,36 +122,48 @@ export function TermsAndConditions({ onBack }: TermsAndConditionsProps) {
                     1. Acceptance of Terms
                   </h2>
                   <p className="text-lg leading-relaxed" style={{ color: '#C0C0C0' }}>
-                    [Terms and conditions content will be added here. This section explains the agreement 
-                    between Silver Essence and its customers.]
+                    Welcome to Silver Essence. This Website is owned and operated by WHJ Arch Way Enterprises LLC.
                   </p>
+                  <p className="text-lg leading-relaxed mt-4" style={{ color: '#C0C0C0' }}>
+                    By accessing or using any part of the Website or purchasing any Products, you agree to be bound by these Terms and Conditions ("Terms"). Please read them carefully.
+                  </p>
+                  <ul className="list-disc list-inside mt-4 space-y-2 text-lg" style={{ color: '#C0C0C0' }}>
+                    <li><strong>Agreement:</strong> By placing an order with us, you warrant that you are at least 18 years old or are visiting the site under the supervision of a parent or guardian.</li>
+                    <li><strong>Modification:</strong> We reserve the right to update, change, or replace any part of these Terms by posting updates and changes to our Website. Your continued use of or access to the Website following the posting of any changes constitutes acceptance of those changes.</li>
+                    <li><strong>Refusal of Service:</strong> We reserve the right to refuse service to anyone for any reason at any time.</li>
+                  </ul>
                 </section>
 
                 <section>
                   <h2 className="text-3xl mb-4 tracking-wide" style={{ color: '#ffffff' }}>
                     2. Product Information
                   </h2>
-                  <p className="text-lg leading-relaxed" style={{ color: '#C0C0C0' }}>
-                    [Content about product descriptions, materials, and specifications will be added here.]
-                  </p>
+                  <ul className="list-disc list-inside mt-4 space-y-2 text-lg" style={{ color: '#C0C0C0' }}>
+                    <li><strong>Product Descriptions:</strong> We make every effort to display as accurately as possible the colors, features, specifications, and details of the silver jewelry products available on the Website.</li>
+                    <li><strong>Variations:</strong> We do not guarantee that the colors, texture, or size will be completely accurate or free of error, as silver jewelry is often hand-finished and the products are natural (e.g., gemstones, natural silver characteristics). Minor variations are inherent in our products.</li>
+                    <li><strong>Pricing:</strong> All prices are subject to change without notice at any time before the contract of sale is concluded.</li>
+                  </ul>
                 </section>
 
                 <section>
                   <h2 className="text-3xl mb-4 tracking-wide" style={{ color: '#ffffff' }}>
                     3. Ordering and Payment
                   </h2>
-                  <p className="text-lg leading-relaxed" style={{ color: '#C0C0C0' }}>
-                    [Content about ordering process and payment terms will be added here.]
-                  </p>
+                  <ul className="list-disc list-inside mt-4 space-y-2 text-lg" style={{ color: '#C0C0C0' }}>
+                    <li><strong>Ordering Process:</strong> The display of products on the Website constitutes an invitation to treat. When you place an order, you are making an offer to purchase the goods. Our acceptance of your order, and the creation of a legally binding contract, occurs when we send you an email confirmation stating that your order has been shipped.</li>
+                    <li><strong>Payment Terms:</strong> We accept various payment methods, including Visa, Mastercard, PayPal and COD. You warrant that any payment method used is yours and that you have sufficient funds to cover the purchase price.</li>
+                    <li><strong>Cancellation:</strong> We reserve the right to refuse or cancel any order. If we cancel an order after you have paid, the payment will be fully refunded to your original payment method.</li>
+                  </ul>
                 </section>
 
                 <section>
                   <h2 className="text-3xl mb-4 tracking-wide" style={{ color: '#ffffff' }}>
                     4. Shipping and Delivery
                   </h2>
-                  <p className="text-lg leading-relaxed" style={{ color: '#C0C0C0' }}>
-                    [Content about shipping policies and delivery times will be added here.]
-                  </p>
+                  <ul className="list-disc list-inside mt-4 space-y-2 text-lg" style={{ color: '#C0C0C0' }}>
+                    <li><strong>Shipping & Risk of Loss:</strong> This section works in conjunction with our separate Shipping Policy. The risk of loss and title for all products purchased passes to you upon our delivery to the shipping carrier.</li>
+                    <li><strong>Liability:</strong> We are not responsible for lost, stolen, or damaged packages after they are handed to the postal carrier.</li>
+                  </ul>
                 </section>
 
                 <section>
@@ -159,7 +171,7 @@ export function TermsAndConditions({ onBack }: TermsAndConditionsProps) {
                     5. Returns and Exchanges
                   </h2>
                   <p className="text-lg leading-relaxed" style={{ color: '#C0C0C0' }}>
-                    [Content about return and exchange policies will be added here.]
+                    <strong>Policy Agreement:</strong> All returns and exchanges are governed by our Returns & Exchanges Policy. By making a purchase, you agree to abide by the terms set forth in that policy.
                   </p>
                 </section>
 
@@ -168,8 +180,16 @@ export function TermsAndConditions({ onBack }: TermsAndConditionsProps) {
                     6. Warranty
                   </h2>
                   <p className="text-lg leading-relaxed" style={{ color: '#C0C0C0' }}>
-                    [Content about product warranty will be added here.]
+                    <strong>Limited Warranty:</strong> Our jewelry is sold with a limited warranty against manufacturing defects for 60 days from the date of delivery.
                   </p>
+                  <p className="text-lg leading-relaxed mt-4" style={{ color: '#C0C0C0' }}>
+                    <strong>Exclusions:</strong> This warranty specifically excludes:
+                  </p>
+                  <ul className="list-disc list-inside mt-4 space-y-2 text-lg" style={{ color: '#C0C0C0' }}>
+                    <li>Tarnish (which is a natural process for silver).</li>
+                    <li>Damage resulting from misuse, accidental damage, or failure to follow the care instructions provided.</li>
+                    <li>General wear and tear (e.g., bent rings, broken chains).</li>
+                  </ul>
                 </section>
 
                 <section>
@@ -182,9 +202,6 @@ export function TermsAndConditions({ onBack }: TermsAndConditionsProps) {
                   <ul className="mt-4 space-y-2">
                     <li style={{ color: '#178B8D' }}>
                       Email: sliveressence00@gmail.com
-                    </li>
-                    <li style={{ color: '#178B8D' }}>
-                      Phone: +968 78720330
                     </li>
                   </ul>
                 </section>
